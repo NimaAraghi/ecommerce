@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { assets } from '../assets/assets'
 import axios from 'axios';
 import { backendUrl } from '../App';
@@ -15,7 +15,7 @@ const Add = ({ token }) => {
     const [price, setPrice] = useState("");
     const [category, setCategory] = useState("Men");
     const [subCategory, setSubCategory] = useState("Topwear");
-    const [bestseller, setBestseller] = useState(false);
+    const [bestSeller, setbestSeller] = useState(false);
     const [sizes, setSizes] = useState([]);
 
     const onSubmitHandeler = async (e) => {
@@ -29,7 +29,7 @@ const Add = ({ token }) => {
             formData.append("price", price);
             formData.append("category", category);
             formData.append("subCategory", subCategory);
-            formData.append("bestseller", bestseller);
+            formData.append("bestSeller", bestSeller);
             formData.append("sizes", JSON.stringify(sizes));
 
             image1 && formData.append("image1", image1);
@@ -145,9 +145,8 @@ const Add = ({ token }) => {
             </div>
 
             <div className='flex gap-2 mt-2'>
-                <input onChange={() =>
-                    setBestseller(prev => !prev)} checked={bestseller} type="checkbox" id='bestseller' />
-                <label className='cursor-pointer' htmlFor="bestseller">Add to bestseller</label>
+                <input onChange={() => setbestSeller(prev => !prev)} checked={bestSeller} type="checkbox" id='bestSeller' />
+                <label className='cursor-pointer' htmlFor="bestSeller">Add to bestSeller</label>
             </div>
 
             <button type="submit" className='w-28 py-3 mt-4 bg-black text-white'>ADD</button>
