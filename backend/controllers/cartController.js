@@ -1,5 +1,5 @@
 import { response } from "express";
-import userModel from "../models/userModel";
+import userModel from "../models/userModel.js";
 
 
 // add products to user cart
