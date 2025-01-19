@@ -102,18 +102,13 @@ const verifyStripe = async (req, res) => {
             await userModel.findByIdAndUpdate(userId, { cartData: {} });
             res.json({ success: true })
         } else {
-            await orderModel.findByIdAndUpdate(orderId);
+            await orderModel.findByIdAndDelete(orderId);
             res.json({ success: false })
         }
     } catch (error) {
         console.log(error);
         res.json({ success: false, message: error.message });
     }
-}
-
-// placing orders using razorpay method
-const placeOrderRazorpay = async (req, res) => {
-
 }
 
 // All orders data for admin panel
