@@ -6,15 +6,15 @@ import OurPolicy from '../components/OurPolicy';
 import NewsLetterBox from '../components/NewsLetterBox';
 
 const Home = () => {
-  return (
-    <div>
-      <Hero/>
-      <LatestCollection />
-      <BestSeller />
-      <OurPolicy />
-      <NewsLetterBox />
-    </div>
-  )
+    return (
+        <div>
+            <Hero />
+            <LatestCollection />
+            <BestSeller />
+            <OurPolicy />
+            <NewsLetterBox />
+        </div>
+    )
 }
 
 export default Home
