@@ -59,14 +59,4 @@ ADMIN_EMAIL = "admin@forever.com"
 ADMIN_PASSWORD = "qwerty123"
 ```
 
-## Contribution
-
-Contributions are welcome! Please open issues or submit pull requests for any feature requests, bug fixes, or enhancements.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
 *Created by [NimaAraghi](https://github.com/NimaAraghi)*
