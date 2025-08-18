@@ -45,6 +45,20 @@ The app will be accessible at `http://localhost:3000`.
 - `/config` - Configuration files (database, environment)
 - `/routes` - API route definitions
 
+## Live Deployments
+
+- Admin Panel: [https://forever-admin-six-alpha.vercel.app/](https://forever-admin-six-alpha.vercel.app/)
+- Backend API: [https://forever-backend-six-pi.vercel.app/](https://forever-backend-six-pi.vercel.app/)
+
+## Demo Admin Credentials
+
+For testing or demonstration purposes, you can use the following admin credentials:
+
+```
+ADMIN_EMAIL = "admin@forever.com"
+ADMIN_PASSWORD = "qwerty123"
+```
+
 ## Contribution
 
 Contributions are welcome! Please open issues or submit pull requests for any feature requests, bug fixes, or enhancements.
