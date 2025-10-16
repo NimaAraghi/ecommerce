@@ -21,23 +21,21 @@ This is an Ecommerce project developed primarily in JavaScript. The repository a
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/NimaAraghi/ecommerce.git
-   cd ecommerce
-   ```
+    ```bash
+    git clone https://github.com/NimaAraghi/ecommerce.git
+    cd ecommerce
+    ```
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 ### Running the Project
 
 To start the development server, run:
-
 ```bash
 npm start
 ```
-
 The app will be accessible at `http://localhost:3000`.
 
 ## Folder Structure
@@ -46,6 +44,11 @@ The app will be accessible at `http://localhost:3000`.
 - `/public` - Static files and assets
 - `/config` - Configuration files (database, environment)
 - `/routes` - API route definitions
+
+## Live Deployments
+
+- Admin Panel: [https://forever-admin-six-alpha.vercel.app/](https://forever-admin-six-alpha.vercel.app/)
+- Backend API: [https://forever-backend-six-pi.vercel.app/](https://forever-backend-six-pi.vercel.app/)
 
 ## Demo Admin Credentials
 
@@ -56,14 +59,4 @@ ADMIN_EMAIL = "admin@forever.com"
 ADMIN_PASSWORD = "qwerty123"
 ```
 
-## Contribution
-
-Contributions are welcome! Please open issues or submit pull requests for any feature requests, bug fixes, or enhancements.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-_Created by [NimaAraghi](https://github.com/NimaAraghi)_
+*Created by [NimaAraghi](https://github.com/NimaAraghi)*
